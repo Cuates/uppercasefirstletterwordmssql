@@ -23,4 +23,4 @@ Microsoft SQL Server function to uppercase first letter of words from user defin
 * in
 
 # Usage
-* dbo.UppercaseFirstLetterWord('This is a test string.')
+* `dbo.UppercaseFirstLetterWord('This is a test string.')`
