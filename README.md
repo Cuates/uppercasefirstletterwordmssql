@@ -4,7 +4,7 @@
 ## Table of Contents
 * [Version](#version)
 * [Important Note](#important-note)
-* [Prerequisite Data Type](#prerequisite-data-types)
+* [Prerequisite Data Types](#prerequisite-data-types)
 * [Prerequisite Functions](#prerequisite-functions)
 * [Prerequisite Conditions](#prerequisite-conditions)
 * [Usage](#usage)
