@@ -1,10 +1,18 @@
 # uppercasefirstletterwordmssql
-Microsoft SQL Server function to uppercase first letter of words from user defined string
+> Microsoft SQL Server function to uppercase first letter of words from user defined string
 
-# Version
+## Table of Contents
+* [Version](#version)
+* [Important Note](#important-note)
+* [Prerequisite Data Type](#prerequisite-data-types)
+* [Prerequisite Functions](#prerequisite-functions)
+* [Prerequisite Conditions](#prerequisite-conditions)
+* [Usage](#usage)
+
+### Version
 * 0.0.1
 
-**Important Note**
+### **Important Note**
 * This function was written with SQL Server 2012 methods
 
 ### Prerequisite Data Types
@@ -22,5 +30,5 @@ Microsoft SQL Server function to uppercase first letter of words from user defin
 ### Prerequisite Conditions
 * in
 
-# Usage
+### Usage
 * `dbo.UppercaseFirstLetterWord('This is a test string.')`
