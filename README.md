@@ -1,5 +1,5 @@
 # uppercasefirstletterwordmssql
-> Microsoft SQL Server function to uppercase first letter of words from user defined string
+> Microsoft SQL Server function to uppercase the first letter of words from a user-defined string
 
 ## Table of Contents
 * [Version](#version)
