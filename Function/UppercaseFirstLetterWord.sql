@@ -1,30 +1,30 @@
-USE [DatabaseName]
-GO
+use [DatabaseName]
+go
 
 -- Set ansi nulls
-SET ANSI_NULLS ON
-GO
+set ansi_nulls on
+go
 
 -- Set quoted identifier
-SET QUOTED_IDENTIFIER ON
-GO
+set quoted_identifier on
+go
 
--- =============================================
+-- ============================================
 --       File: UppercaseFirstLetterWord
 --    Created: 07/19/2020
---    Updated: 07/25/2020
+--    Updated: 07/29/2020
 -- Programmer: Cuates
 --  Update By: Cuates
 --    Purpose: Uppercase first letter of a word
--- =============================================
-CREATE FUNCTION [dbo].[UppercaseFirstLetterWord]
+-- ============================================
+create function [dbo].[UppercaseFirstLetterWord]
 (
   -- Parameters
   @InputString nvarchar(max) = null
 )
-RETURNS nvarchar(max)
-AS
-BEGIN
+returns nvarchar(max)
+as
+begin
   -- URLs
   -- http://www.sql-server-helper.com/functions/initcap.aspx
   -- https://stackoverflow.com/questions/55054/what-s-the-best-way-to-capitalise-the-first-letter-of-each-word-in-a-string-in-s
@@ -71,4 +71,4 @@ BEGIN
 
     -- Return string result
     return @stringResult
-END
+end
